@@ -17,13 +17,13 @@ function App() {
         <Route path="/signup" element={<Signup/>} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/explore/video/:id" element={<SingleVideo/>} />
-<Route element={<RequireAuth />}>
-                <Route path="/liked" element={<Liked />} />
-                <Route path="/history" element={<History />} />
-                <Route path="/playlists" element={<Playlists />} />
-                <Route path="/playlists/:id" element={<PlaylistListing />} />
-                <Route path="/watchlater" element={<WatchLater />} />
-              </Route>
+        <Route element={<RequireAuth />}>
+          <Route path="/liked" element={<Liked />} />
+          <Route path="/history" element={<History />} />
+          <Route path="/playlists" element={<Playlists />} />
+          <Route path="/playlists/:id" element={<PlaylistListing />} />
+          <Route path="/watchlater" element={<WatchLater />} />
+        </Route>
       </Routes>
     </div>
   );

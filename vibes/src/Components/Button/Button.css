@@ -1,0 +1,45 @@
+.button {
+    padding: 0.3rem;
+    background-color: transparent;
+    border: transparent;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    border: 2px solid var(--primary);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.button-outlined {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.button-contained {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.button-large {
+    width: 12rem;
+}
+
+.button-outlined:hover {
+    color: var(--primary-hover);
+}
+
+.button-contained:hover {
+    background-color: var(--primary-hover);
+}
+
+.button:hover {
+    border-color: var(--primary-hover);
+}
+
+.error-button {
+    background-color: grey;
+    cursor: unset;
+}
+
+.error-button:hover {
+    background-color: grey;
+}

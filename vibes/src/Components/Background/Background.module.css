@@ -1,0 +1,14 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -2;
+}
+
+.background_light {
+    background-color: var(--white);
+}
+
+.background_dark {
+    background-color: var(--black);
+}

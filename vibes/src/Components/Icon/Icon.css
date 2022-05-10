@@ -1,0 +1,15 @@
+.icon {
+    color: var(--primary);
+    border: none;
+    border-radius: 10%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: var(--white);
+    background-color: var(--primary);
+}

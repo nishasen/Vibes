@@ -20,7 +20,6 @@ const VideoCard = ({video}) => {
   const [ showDropdown, setShowDropdown ] = useState(false);
   const cardDescText = mode==="light" ? style.card_light_text : style.card_dark_text; 
   const cardDropdown = mode==="light" ? style.card_light_dropdown : style.card_dark_dropdown; 
-  const playlist = true;
   const time = setDuration(duration)
 
   return (

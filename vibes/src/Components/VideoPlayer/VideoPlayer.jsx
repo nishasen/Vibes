@@ -41,7 +41,7 @@ const VideoPlayer = ({singleVideo, id, loading}) => {
                                 useDeleteAxios('likes', _id, videoDispatch, "DELETE_LIKE")
                                 Toast("Video removed from liked", "success")
                             } else {
-                                Toast("Login to remove video from liked", "success")
+                                Toast("Login to remove video from liked", "warning")
                             }
                             }}/> 
                         : 
@@ -50,7 +50,7 @@ const VideoPlayer = ({singleVideo, id, loading}) => {
                                 usePostAxios('likes', singleVideo, videoDispatch, "POST_LIKE")
                                 Toast("Video added to liked", "success")
                             } else {
-                                Toast("Login to add video to liked", "success")
+                                Toast("Login to add video to liked", "warning")
                             }
                             }}/>}
                 </div>
@@ -66,7 +66,7 @@ const VideoPlayer = ({singleVideo, id, loading}) => {
                                 useDeleteAxios('watchlater', _id, videoDispatch, "DELETE_WATCH_LATER")
                                 Toast("Video removed from watch later", "success")
                             } else {
-                                Toast("Login to remove video from watch later", "success")
+                                Toast("Login to remove video from watch later", "warning")
                             }
                             }}/> 
                         : 
@@ -75,7 +75,7 @@ const VideoPlayer = ({singleVideo, id, loading}) => {
                                 usePostAxios('watchlater', singleVideo, videoDispatch, "POST_WATCH_LATER")
                                 Toast("Video added to watch later", "success")
                             } else {
-                                Toast("Login to add video to watch later", "success")
+                                Toast("Login to add video to watch later", "warning")
                             }
                             }}/>}
                 </div>

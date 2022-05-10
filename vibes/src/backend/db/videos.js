@@ -455,119 +455,132 @@ export const videos = [
   },
   {
     kind: "youtube#video",
-    etag: "t3XuoUbROCD7wYcInzaLRfoxk8M",
-    videoId: "XLcv4awjvp4",
-    _id: "XLcv4awjvp4",
-    title: "🔥 30 min Hindi Lo-fi Songs to Lockdown at 3 Am /Study/Sleep/Chill/Relax make your day better 😊",
-    description: "#reels #lofiswap #bollywoodlofi\n☆ My Instagram -https://www.instagram.com/Singer_shaquib/ \n\n¤☆if you guys like my lo-fi flips then click here for support \nGoogle pay id 👇👇👇👇\n[ mdshaquib555@okicici ]\n\n1-hour non stop Hindi Lofi My favorites Playlist \nNew Lofi one of my favorites songs playlist \nStay X Ranjha | Justin Bieber | Bpaark \n\nhttps://youtu.be/Tjj_OHdEDPU\n\nhttps://youtu.be/U_xAN096TJk\n\nhttps://youtu.be/quQ-q856UJE\n\nhttps://youtu.be/srtr-9pL8qo\n\nTIMESTAMPS :\n00:00 - Shayad\n03:08 - Humdard\n08:14 - Qaafirana\n11:40 - Tujhe Kitna Chahne Lage\n13:50 - Jeena Jeena \n16:42 - Channa Mereya \n18:45 - Phir Kabhi\n24:22 - Jab Tak \n27:32 - Asal Mein \n30:54 - Darkhast \n\n\n🔥 Hindi Lo-fi Songs to Study/Sleep/Chill/Relax make your day better 😊\n\nHello, I hope all is going well for you. Right now, everybody is going through a tough time. Stay at home, relax, and listen to a lo-fi song🎵. I'm going to be consistent from now on. Thanks for taking the time to watch.🙏\n\n If you like this Slowed & Reverbed music ❤Then SHARE this video with your friends, relatives, and loved ones and smash like button ❤ Also, consider SUBSCRIBING to my channel.\n\n ✨Enjoy ✨ For a better experience, 🎧use earphones.\n\n Thank you for your efforts, Indian Lofi Group. ORIGINAL CREATORS➡ WORMONO\n\n ⏩ YT- https://www.youtube.com/channel/UC8aT... IG- https://bit.ly/3f7pmap Harrlin flip\n ⏩ YT- https://www.youtube.com/channel/UCWQq... IG- https://www.instagram.com/sardarboiiii/ Desi Reverb \n⏩ YT- https://www.youtube.com/channel/UCYdy... Indian Lo-fi song channel \n⏩ YT- https://www.youtube.com/channel/UCr3y... IG- https://www.instagram.com/indianlofis... i am prince pokhrel\n ⏩ YT- https://www.youtube.com/channel/UCxNC... IG- https://www.instagram.com/iamprincepo... Lynda dh\n ⏩ YT- https://www.youtube.com/channel/UCZgK...\n\nTAGS, #reels#lofiswap#bollywoodlofi#reelsong#youtubeshort#short#shorts#bestsadsong#saflofi#lofimix#slowandreverb#indianlofisong#indianbollywoodlofi#lofibollywoodmusic#lofimusic#lofibestsong#sadlofi#lofisad#mahiyameremahi#reels#aestheticreels#newsong#bollywoodnewsong#reels\n#reel\n#reelsofinstagram\n#reelofinstagram\n#reelitfeelit\n#reelkarofeelkaro\n#reelvideo #reelit #reelsinstagram #reelinstagram #reelindia\n#reelsviral #reelviral \n#reelriders\n#bikersfamily #bikergram #bikersnetwork\n#riderslife\n#travelreels\n#traveller\n#travelriders\n#mountainride\n#ghatsride\n#travelforlife\n↳ Turn on notifications (🔔) to stay updated with new uploads and never miss video! 30 minutes of hindi lofi 🌅 Bollywood songs but it's lofi \n\n🎧Tracklist : Coming soon! DON'T FORGET TO SHARE LIKE SUPPORT FOR MORE NEW FRESH MUSIC. ❤ Support musicbysantiago Like & Share the music if you enjoy it! ◢Please Share this Mix on Social sites (Facebook, Google +, Twitter etc.) to more person could listen it! SUBSCRIBE:- Morning Vibe's ❤ LIKE IF LIKE THE MIX❤ ❤ SHARE IF YOU LOVE IT❤ --------------------------------------------------------------------------------------------------------------------------- lofi,indian,indian lof loft indian indian loft hip hop lofr hip hop.indian hip hop, indie,indian lofi mix.lofi mix indian music,lofi beats,lofi hiphop radiolofi radio, india,laifi hiphop,lof study.desi lofi lofi music lo-fi hip hop radio.playlist wanderlust lofi lo-fi hiphop.quarantine lofi,lofi hip hop mix,lofi vocal radio,sad lofi,lo-fi beats,lofi chill,vocal lofi,lofi love song.lofi vocal beats,corona virus loft, indianlofi.papa pandey,bollywood loft bollywood loft lofi bollywood indian lofi,isolate lofi, bollywood flip.bollywood songs bollywood remix,desi lofi, hindi lofi,bollywood romantic song bollwood mix.quarantine lofi lofi aesthetics,corona virus lof, indian lof hip hop.lo-filofi mix lofi flip.lofi beats,lofi remix.lofi vibes,lofi edits,lofi hip hop,lofi hiphop.Jogic.logio pro,desilofi lofiedits, lofiremixindianlofi. lofi Indian,indian lofi,indian lofi hip hop,indian lofi mix,sad lofi song,bollywood songs,lofi hip hop,lofi hiphop,lofi bollywood song,lofi indian,Lofi Bollywood Song,bollywood lofi song,hindi lofi,new indian lofi,new bollywood lofi song,new hindi lofi ------------------\n\nSUPPORT ALL THE ARTISTS IN THIS VIDEO FOR THEIR HARD WORK. --------------------------------------------------------------------------------------------------------------- \n*The Original Copyright(s) is (are) Solely owned by the Companies/Original-Artist(s)/Record label(s) All the contents are intended to Showcase creativity of the Artist involved and are strictly done for a promotional purpose.* \n\n*DISCLAIMER: As per 3rd sectionof fair use guidlines Borrowing small bits of material from an original work is more likely to be considered fair use. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for fair use*. \n\n#morningvibes #Indianlofi\u200b\u200b #desilofi\u200b\u200b #indianlofihiphop\u200b\u200b #bollywoodsongs\u200b\u200b #slowlofisong\u200b\u200b #bollywoodreverbsongs\u200b\u200b #lofibollywoodsong\u200b\u200b #hindilofi\u200b\u200b #sadlofisong\u200b\u200b #newbollywoodlofisong",
-    channelTitle: "Morning Vibe's",
+    etag: "3mqOKh6I_UW4NW36oUMYzQ4ghE8",
+    videoId: "BPaYNAXsNmE",
+    _id: "BPaYNAXsNmE",
+    title: "Morning songs | morning songs hindi | mind fresh song 2021 | New Nonstop Bollywood Song",
+    description: "Best collection Bollywood hit song for a perfect morning listen and enjoy our morning collection of hits of bollywood 2020 and 2021 , 2022 song Morning songs good morning songs hindi slow mind fresh song New Nonstop Bollywood Song morning juke box relaxing songs of bollywood. specially weekend song. Best collection bollywood hit song for a perfect morning listen and enjoy our morning collection of hits of bollywood 2020 and 2021 song Listen to the best collection of hits from the latest and most popular Bollywood movies.\n\n\n❤️ Please Like Comment and subscribe ❤️\n\n💕 Please Subscribe ❤️ 👉 https://www.youtube.com/channel/UCRiFqVBcWGiDdtQ8V2LSolw?sub_confirmation=1\n\n#morning\u200b #Morninghits #mindfresh\u200b #2021hitsong #\u200batifsong #jukebox #newsong #2020song\n\n---------\n\nmind fresh song\nmind fresh song list\nmind fresh hindi song list\nmind fresh bollywod song list\nmind fresh bollywod songs\nbollywod songs mind fresh\ngood morning mind fresh song\nmorning mind fresh song\nmorning mind fresh songs\nBest mind fresh songs\ntop mind fresh song\ntop hindi mind fresh song\nbest of bollywod mind fresh song\nmood fresh song\nmood fresh song list\nmood fresh hindi song list\nmood fresh bollywod song list\nmood fresh bollywod songs\nbollywod songs mood fresh\ngood morning mood fresh song\nmorning mood fresh song\nmorning mood fresh songs\nBest mood fresh songs\ntop mood fresh song\ntop hindi mood fresh song\nbest of bollywod mood fresh song\nmood fresh love song\nmood fresh love song list\nmood fresh hindi love song list\nmood fresh bollywod love song list\nmood fresh bollywod love songs\nbollywod love songs mood fresh\ngood morning mood fresh love song\nmorning mood fresh love song\nmorning mood fresh love songs\nBest mood fresh love songs\ntop mood fresh love song\ntop hindi mood fresh love song\nbest of bollywod mood fresh love song\n\nmorning songs, Morning Songs, Romantic Song, Latest Hindi Songs, Best Music, Hindi Hits Songs, Nonstop Hindi Song 2019 2020, top 10 hindi song 2020, bollywood song, bollywood hits 2019 2020, best hindi songs 2014 2015 2016 2017 2018 2019 Nonstop Bollywood Hits bollywood hit songs, bollywood best songs, nonstop bollywood hits, bollywood songs, bollywood 2018, 2019, 2020 best song, new hindi songs 2018, new hindi songs 2019, 2020, old song collection bollywood song, bollywood, bollywood songs, hindi song, songs, best bollywood hits, old hits, top 10 hindi songs of all times, songs collection, bollywood songs collection , top hindi song, super hit songs of bollywood , top 1 10 hits of bollywood , hit songs of bollywood , top 10 hit hindi video songs bollywood songs playlist, bollywood hits, top bollywood songs, best of bollywood, best of bollywood songs video, top songs of bollywood 2019 2020 2021, new song hindi film 2020 2021 2022 2023 2024 2025 2026 2027 2028 bollywood slow songs, bollywood love songs, bollywood sad songs, bollywood hit songs, love songs, romantic hindi songs, love songs collection, sad songs in hindi, hit song, top hits, Sad Songs bollywood 90s and 2000s Collection - Best Love Songs Of Bollywood Good morning song, good morning bollywood songs, Good Morning Song feat. Parineeti Chopra, bollywood good morning songs, hindi good morning songs, good morning hd song, good morning song hd, happy good morning video Good morning song, bollywood songs, hindi songs, best hindi songs, good morning video, bollywood movie scenes, bollywood movie scenes in hindi, good morning song lyrics, lyrics of good morning song, good morning hindi song video download, good morning video download good morning song, bollywood good morning songs, good morning song download, good morning hindi songs, good morning love songs, best hindi love song, old hindi love songs, hindi romantic songs, love songs collection, hindi romantic movies, romantic movie songs, hindi new songs good morning bollywood song, good morning songs, good morning wishes for friends, beautiful good morning songs, hindi songs, bollywood songs, best of bollywood songs, famous bollywood songs good morning song, good morning song bollywood, good morning songs, hindi good morning song, good morning songs hindi, good morning background music, good morning song video, comedy scenes for whatsapp, comedy whatsapp status video download good morning song, good morning video, bollywood good morning song, good morning hindi, hindi good morning video, good morning funny good morning song, bollywood songs, hindi songs, bollywood romantic songs, english romantic songs, new hindi songs, latest bollywood songs.",
+    channelTitle: "Pink Lamon",
     categoryName: "Fresh",
-    duration: "PT38M21S",
+    duration: "PT1H16M51S",
     thumbnails: {
         default: {
-          url: "https://i.ytimg.com/vi/XLcv4awjvp4/default.jpg",
+          url: "https://i.ytimg.com/vi/BPaYNAXsNmE/default.jpg",
           width: 120,
           height: 90
         },
         medium: {
-          url: "https://i.ytimg.com/vi/XLcv4awjvp4/mqdefault.jpg",
+          url: "https://i.ytimg.com/vi/BPaYNAXsNmE/mqdefault.jpg",
           width: 320,
           height: 180
         },
         high: {
-          url: "https://i.ytimg.com/vi/XLcv4awjvp4/hqdefault.jpg",
+          url: "https://i.ytimg.com/vi/BPaYNAXsNmE/hqdefault.jpg",
           width: 480,
           height: 360
         },
         standard: {
-          url: "https://i.ytimg.com/vi/XLcv4awjvp4/sddefault.jpg",
-          width: 640,
-          height: 480
-        }
-      },
-    tags: [
-      "music",
-      "jazz",
-      "hop",
-      "chill",
-      "lofi"
-    ],  
-  },
-  {
-    kind: "youtube#video",
-    etag: "fHkZRE7N5GtV63_fEw9TU4FnrJg",
-    videoId: "bpC85cPmPjI",
-    _id: "bpC85cPmPjI",
-    title: "Morning chill vibes music playlist ☕️ English chill songs - Best pop r&b mix",
-    description: "Morning chill vibes music playlist ☕️ English chill songs - Best pop r&b mix\nMorning chill vibes music playlist ☕️ English chill songs - Best pop r&b mix\n\n\n👍Suggested Video:\nFollow my favorite songs: http://bit.ly/bestchillmix\nMorning songs get your day off to start: http://bit.ly/chillmixplaylist\nSongs chill music hits: http://bit.ly/TimeMusicMix\n\n💙 Time Music Socials:\nInstagram: http://bit.ly/timemusicmix\nYT: https://www.youtube.com/c/TimeMusicChill\n\n📷 https://unsplash.com\n\n\n#timemusic #chillmix #morningmusic\n\n✉ Please send your song or photo (background for videos) submissions to: hinches09@gmail.com\n\n✌ Hi guys, every day Time Music updates the channel with a playlist music mix of the newest pop, chill tracks, summer songs, road trip songs, morning music, coffee songs, r&b songs, and chill vibes playlist, best chill music mix/depression-sad songs for my subscribers.",
-    channelTitle: "Time Music",
-    categoryName: "Fresh",
-    duration: "PT38M42S",
-    thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/bpC85cPmPjI/default.jpg",
-          width: 120,
-          height: 90
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/bpC85cPmPjI/mqdefault.jpg",
-          width: 320,
-          height: 180
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/bpC85cPmPjI/hqdefault.jpg",
-          width: 480,
-          height: 360
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/bpC85cPmPjI/sddefault.jpg",
+          url: "https://i.ytimg.com/vi/BPaYNAXsNmE/sddefault.jpg",
           width: 640,
           height: 480
         },
         maxres: {
-          url: "https://i.ytimg.com/vi/bpC85cPmPjI/maxresdefault.jpg",
+          url: "https://i.ytimg.com/vi/BPaYNAXsNmE/maxresdefault.jpg",
           width: 1280,
           height: 720
         }
       },
     tags: [
-      "morning chill",
-      "chill vibes",
-      "vibes music",
-      "music playlist",
-      "english chill",
-      "chill songs",
-      "english chill songs",
-      "english songs",
-      "pop",
-      "rnb",
-      "rnb mix",
-      "chill mix",
-      "mix ever",
-      "chill music",
-      "love songs",
-      "morning music",
-      "morning playlist",
-      "morning song",
-      "playlist",
-      "morning vibes",
-      "chill mix music",
-      "saturday night",
-      "i really miss you",
-      "chill playlist",
-      "chill music playlist",
-      "chill out music",
-      "wish you never left",
-      "at my worst",
-      "khalid",
-      "lauv",
-      "etham",
-      "r&b chill mix",
-      "pop chill",
-      "chill",
-      "english chill song"
-    ],
-  }, 
+      "bollywood lofi",
+      "bollywood lofi mix",
+      "30 minute bollywood lofi",
+      "1 hour indian lofi",
+      "bollywood lofi remakes",
+      "bollywood lofi for drive",
+      "lofi mix for drive",
+      "bollywood lofi for study",
+      "bollywood lofi to relax",
+      "indian lofi relax",
+      "indian lofi mix",
+      "bollywood lofi mixtape",
+      "bollywood lofi wormono",
+      "bollywood lofi remake",
+      "lofi remake",
+      "bollywood lofi all songs",
+      "30 minute mix bollywood lofi",
+      "hindi lofi",
+      "hindi lofi mix",
+      "hindi lofi remakes",
+      "indian lofi flips",
+      "lofi mix",
+      "lofi mixtape",
+      "lofi"
+    ]    
+  },
+  {
+    kind: "youtube#video",
+    etag: "2WMw-HxufUilPW8ptlc84TAqt4E",
+    videoId: "lnP76G6mr64",
+    _id: "lnP76G6mr64",
+    title: "Best Of Bollywood Hindi Lo-fi 2022💖Chill Mix Playlist 2022💖Best Hindi Lofi Songs Playlist 2022💖",
+    description: "Best Of Bollywood Hindi Lo-fi 2022💖Chill Mix Playlist 2022💖Best Hindi Lofi Songs Playlist 2022💖\n\n✅ Best Headphones ✅ \nhttps://amzn.to/32JYmgh\n\n✅ Best Ear-Headphones ✅ \nhttps://amzn.to/3sTPTlp\n\n\"As an Amazon Associate I earn from qualifying purchases.\"\nDisclosure - #ad \n\n💜T-Series\n⭐️https://www.youtube.com/aashiqui2/\n⭐️https://www.facebook.com/tseriesmusic\n⭐️https://twitter.com/tseries\n⭐️https://www.instagram.com/tseries.official/\n\n🎵 | Playlist :-\n00:00 Clueless Love Mashup | Jay Guldekar | Arijit Singh | Mast Magan | Phir Le Aya Dil\nhttps://www.youtube.com/watch?v=VsukgdVn7CY\n05:04 Enna Sona (Lofi Edit) - Happy Pills & Tanix - Ok Jaanu - Bollywood Lofi \nhttps://www.youtube.com/watch?v=Bzs65J5rKGw\n08:24 Kabhi Tumhe - Darshan Raval [WORMONO x @Happy Pills Lofi Remake] | Shershaah |\nhttps://www.youtube.com/watch?v=649nMJUZVXo\n11:40 (Lyrics) Pal Pal Dil Ke Paas - Arijit Singh, Tulsi Kumar (WORMONO Lo-Fi Remake ) |\nhttps://www.youtube.com/watch?v=kL3YiaenOEM\n13:57 O Sanam Lo-Fi Flip - Jeff 🌊🌊\nhttps://www.youtube.com/watch?v=HYuUlLYsdhw\n17:11 Kaise Hua (Lofi Edit) - Kabir Singh - Happy Pills - Bollywood Lofi \nhttps://www.youtube.com/watch?v=F060-oubGwA\n20:38 Labon Ko - K.K. [WORMONO x @Harrlin Beats Lofi Remake] | Bhool Bhulaiyaa | \nhttps://www.youtube.com/watch?v=BGplJtClRFE\n24:23 Rihaa (Lofi Edit) - Wormono & Happy Pills - Arijit Singh - Hindi Lofi \nhttps://www.youtube.com/watch?v=nSWy3KzPYHI\n29:01 Titli (Lofi Edit) - Happy Pills & Veerdo - Bollywood Lofi\nhttps://www.youtube.com/watch?v=VBS25zs_NuE\n33:11 Abhi Kuch Dino Se (Lofi Edit) - Happy Pills & Veerdo - Bollywood Lofi \nhttps://www.youtube.com/watch?v=bWBlaFwKzlk\n36:36 Janam Janam (Lofi Remake) - Dilwale - Happy Pills - Bollywood Lofi\nhttps://www.youtube.com/watch?v=mznrWm0I7cE\n39:23 Darshan Raval Mashup - Parth Dodiya - Heart Broken Songs - Bollywood Lofi & Chill\nhttps://www.youtube.com/watch?v=GalX2uvUvt8\n44:38 Dark Love Mashup - Parth Dodiya - Ranveer Singh, Deepika Padukone - Aayat - Laal Ishq \nhttps://www.youtube.com/watch?v=DKiX25PyoCw\n48:57 Bewafa (Lofi Edit) - Happy Pills & Danvendra Arya - Imran Khan - Hindi Lofi \nhttps://www.youtube.com/watch?v=NJ-h2ccC6bU\n51:53 Bin Tere (Lofi Remake) - Happy Pills & Veerdo - Bollywood Lofi \nhttps://www.youtube.com/watch?v=WNiFlcwurJM\n55:19 Ghajini - Kaise Mujhe (Happy Pills & Last Source Flip) - Aamir Khan, Asin - Bollywood Lofi \nhttps://www.youtube.com/watch?v=TF41x6Zzd90\n57:42 I Like Me Better x Bollywood (Lofi Mashup) - Happy Pills x Veerdo - Bollywood Lofi \nhttps://www.youtube.com/watch?v=TIeNLekqtxM\n01:02:13 Ranbir Kapoor - Khuda Jaane (Lofi Remake) - Happy Pills - Bollywood Lofi \nhttps://www.youtube.com/watch?v=OiyNUPySAQw\n01:04:52 Dildara (Lofi Remake) - WORMONO & Happy Pills - Bollywood Lofi \nhttps://www.youtube.com/watch?v=RR8bkD2mspo\n01:07:13 Bhavra Mann (Lofi Edit) - Darshana Rajendran - Happy Pills & Veerdo - Hindi Lofi \nhttps://www.youtube.com/watch?v=AFH7N4gIrRk\n01:09:56 Chand Sifarish (Lofi Edit) - Fanaa - Happy Pills - Bollywood Lofi  \nhttps://www.youtube.com/watch?v=-COAV6b93Bo\n01:13:14 Emraan Hashmi Mashup - Parth Dodiya - Emotional Love Mashup - Bollywood Lof\nhttps://www.youtube.com/watch?v=9JCKGk7fx84\n01:17:24 Attention 2.0 Mashup - Happy Pills - Sush & Yohan - Mega Mashup \nhttps://www.youtube.com/watch?v=m7_3Xn95xvg\n01:21:05 Egiye De (Lofi Remake) - Shudhu Tomari Jonyo - Happy Pills & Veerdo - Bangla Lofi \nhttps://www.youtube.com/watch?v=sVwBB5DP3L4\n01:23:58 Majhe Majhe Tobo (Lofi Remake) - Happy Pills & Veerdo - Arindom \nhttps://www.youtube.com/watch?v=Xjt07l6q0Dw\n\n🎨 | Artwork by :-\nhttps://www.artstation.com/artwork/YeWP3V\n\n🔔 CONTACT US:\nemailquery111@gmail.com\n\n#bollywood pocket FM #bollywood Hindi songs #bollywood lofi songs \n====================\nContent is taken from ' T-Series ' A Leading Bollywood Film Studio of India\n+ https://www.youtube.com/aashiqui2\n\n© Follow  Bollywood Pocket FM\n❤ Please Share this Mix on Social sites (Facebook, Google +, Twitter etc.) to more people could listen to it!\nDon't forget to Like & Share the mix if you enjoy it!\n▷ Subscribe: https://www.youtube.com/channel/UC2qsM5f0M8ATMxW1P5BZHAQ\nThanks for watching! Don't forget to SUBSCRIBE, Like & Share my video if you enjoy it! Have a nice day!\n🚫 If you have any problems with copyright issues, please CONTACT US DIRECTLY before doing anything, or questions please leave a message or comment to me.\n====================\nDISCLAIMER :\n [This Following Audio/Video is Strictly meant for Promotional Purpose.]\n\n* We Do not Wish to make any Commercial Use of this & Intended to Showcase the Creativity Of the Artist Involved.*\n\n*DISCLAIMER: As per 3rd Section of Fair use guidelines Borrowing small bits of material from an original work is more likely to be considered fair use. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for fair use.\n====================\nTags :-New Hindi SOngs 2022, bollywood lofi slowed and reverb playlist, bollywood lofi slowed and reverb arijit singh,",
+    channelTitle: "Bollywood Pocket FM",
+    categoryName: "Fresh",
+    duration: "PT1H27M41S",
+    thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/lnP76G6mr64/default.jpg",
+          width: 120,
+          height: 90
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/lnP76G6mr64/mqdefault.jpg",
+          width: 320,
+          height: 180
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/lnP76G6mr64/hqdefault.jpg",
+          width: 480,
+          height: 360
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/lnP76G6mr64/sddefault.jpg",
+          width: 640,
+          height: 480
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/lnP76G6mr64/maxresdefault.jpg",
+          width: 1280,
+          height: 720
+        }
+      },
+    tags: [
+      "bollywood lofi",
+      "bollywood lofi mix",
+      "30 minute bollywood lofi",
+      "1 hour indian lofi",
+      "bollywood lofi remakes",
+      "bollywood lofi for drive",
+      "lofi mix for drive",
+      "bollywood lofi for study",
+      "bollywood lofi to relax",
+      "indian lofi relax",
+      "indian lofi mix",
+      "bollywood lofi mixtape",
+      "bollywood lofi wormono",
+      "bollywood lofi remake",
+      "lofi remake",
+      "bollywood lofi all songs",
+      "30 minute mix bollywood lofi",
+      "hindi lofi",
+      "hindi lofi mix",
+      "hindi lofi remakes",
+      "indian lofi flips",
+      "lofi mix",
+      "lofi mixtape",
+      "lofi"
+    ]
+  },
   {
     kind: "youtube#video",
     etag: "Uiigaohw31q6dJvChaCBuOVbRIc",

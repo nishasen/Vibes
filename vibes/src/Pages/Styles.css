@@ -1,0 +1,40 @@
+.headers {
+    margin: -2rem 1rem 0 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-button, .playlist-delete {
+    padding: 0.5rem;
+    color: var(--white);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.playlist-button {
+    background-color: var(--primary);
+    border: 2px solid var(--primary-hover);
+}
+
+.playlist-delete {
+    background-color: hsl(350, 96%, 43%);
+    border: 2px solid hsl(353, 86%, 54%);
+}
+
+.playlist-button:hover {
+    background-color: var(--primary-hover);
+    border: 2px solid var(--primary);
+}
+
+.playlist-delete:hover {
+    background-color: hsl(353, 86%, 54%);
+    border: 2px solid hsl(350, 96%, 43%);
+}
+
+@media only screen and (max-width: 500px) {
+
+    .headers {
+        margin: -2rem 1rem 0 1rem;
+    }
+    
+}

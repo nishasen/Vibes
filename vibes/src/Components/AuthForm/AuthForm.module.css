@@ -1,0 +1,50 @@
+.auth_card {
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 2px solid var(--primary);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem 0 3rem 0;
+    width: 19rem;
+}
+
+.account_check {
+    align-items: center;
+    gap: 0.2rem;
+    cursor: pointer;
+}
+
+.name_input {
+    gap: 0.5rem;
+}
+
+.text_light {
+    color: var(--black);
+}
+
+.text_dark {
+    color: var(--white);
+}
+
+.password_fields {
+    position: relative;
+    width: 100%;
+}
+
+.eye_icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 1.5rem;
+    color: var(--primary);
+}
+
+.account_check:hover {
+    color: var(--st-secondary-color);
+}
+
+.eye_icon:hover {
+    color: var(--primary-hover);
+}

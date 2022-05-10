@@ -1,0 +1,111 @@
+.video_player {
+    margin: 0.5rem 1rem 0 8rem;
+    gap: 2rem;
+}
+
+.video_details {
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+.video_title {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.video_channel {
+    color: #666666;
+    padding: 0.2rem 0;
+    margin-top: -0.5rem;
+}
+
+.video_actions {
+    gap: 1rem
+}
+
+.card_icons {
+    color: var(--primary);
+    padding: 0.4rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.video_desc {
+    padding-top: 0.5rem;
+    font-size: 1.05rem;
+    border-top: 1.5px solid ;
+    margin-bottom: 2rem;
+}
+
+.desc_title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.more_videos {
+    flex-direction: column;
+    gap: 0.5rem;   
+}
+
+.audio_container {
+    gap: 1rem;
+    align-items: center;
+}
+
+.set_vibes {
+    gap: 1rem;   
+}
+
+.radio_inputs {
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.radio_inputs input {
+    width: 1.1rem;
+    height: 1.1rem;
+    cursor: pointer;
+}
+
+.radio_inputs label {
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.text_light {
+    color: var(--black);
+}
+
+.text_dark {
+    color: var(--white);
+}
+
+.card_icons:hover {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+@media only screen and (max-width: 880px) {
+
+    .video_player {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .more_videos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .video_player {
+        margin: 2rem 1rem;
+    }
+    
+}

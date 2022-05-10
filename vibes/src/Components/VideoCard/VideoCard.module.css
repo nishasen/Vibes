@@ -1,0 +1,115 @@
+.video_card {
+    margin: 0.5rem 0;
+    width: 16rem;
+    box-shadow: 0 0 12px var(--primary);
+    border-radius: 0.2rem;
+    grid-template-rows: repeat(3, auto);
+    position: relative;
+    height: max-content;
+    cursor: pointer;
+}
+
+.card_image, .card_time {
+    grid-area: 1/1/2/2;
+}
+
+.card_image {
+    border-radius: 0.2rem 0.2rem 0 0;
+    height: 8rem;
+    width: 100%;
+}
+
+.card_time {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.time {
+    background-color: var(--black);
+    padding: 0.1rem 0.2rem;
+    color: var(--white);
+}
+
+.card_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0.5rem;
+    font-weight: bold;
+}
+
+.card_title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 13rem;
+}
+
+.card_more {
+    cursor: pointer;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+.card_channel {
+    padding: 0.2rem 0.5rem;
+    color: #666666;
+}
+
+.card_light_text {
+    color: var(--black);
+}
+
+.card_dark_text {
+    color: var(--white);
+}
+
+.card_dropdown {
+    position: absolute;
+    bottom: -1.2rem;
+    right: 0;
+    padding: 0.2rem;
+    border: 1.5px solid var(--primary);
+    border-radius: 1.5rem;
+    color: var(--primary);
+    display:flex;
+}
+
+.card_icons {
+    padding: 0.2rem;
+    border-radius: 50%;
+}
+
+.card_light_dropdown {
+    background-color: var(--black);
+}
+
+.card_dark_dropdown {
+    background-color: var(--white);
+}
+
+.video_card:hover {
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+.video_card:hover .card_desc {
+    align-items: flex-start;
+}
+
+.card_more:hover {
+    background-color: var(--primary);
+}
+
+.card_icons:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+@media only screen and (max-width: 500px) {
+
+    .video_card:last-child {
+        margin-bottom: 4.7rem;
+    }
+    
+}

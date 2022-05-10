@@ -24,24 +24,18 @@ const VideoCard = ({video}) => {
 
   return (
     <div className={`dis-grid ${style.video_card}`}>
-        <Link to={`/explore/video/${_id}`} className="dis-grid link">
+        <Link to={`/explore/${_id}`} className="dis-grid link">
           <img src={thumbnails.medium.url} 
                 alt="lofi" 
                 className={style.card_image} 
-                onClick={()=>{
-                  videoDispatch({type: "CATEGORY_NAME", payload: categoryName})
-                  usePostAxios('history', video, videoDispatch, 'POST_HISTORY')}}/>
-          <div className={`dis-flex ${style.card_time}`} onClick={()=>{
-            videoDispatch({type: "CATEGORY_NAME", payload: categoryName})
-            usePostAxios('history', video, videoDispatch, 'POST_HISTORY')}}>
+                onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: categoryName})}/>
+          <div className={`dis-flex ${style.card_time}`} onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: categoryName})}>
             <p className={style.time}>{time}</p>
           </div>
         </Link>
         <div className={style.card_desc}>
-          <Link to={`/explore/video/${_id}`} className="dis-grid link">
-            <div className={`${cardDescText} ${style.card_title}`} onClick={()=>{
-              videoDispatch({type: "CATEGORY_NAME", payload: categoryName})
-              usePostAxios('history', video, videoDispatch, 'POST_HISTORY')}}>
+          <Link to={`/explore/${_id}`} className="dis-grid link">
+            <div className={`${cardDescText} ${style.card_title}`} onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: categoryName})}>
               {title}
             </div>
           </Link>
@@ -49,10 +43,8 @@ const VideoCard = ({video}) => {
             <HiDotsVertical size={19} onClick={()=>setShowDropdown(!showDropdown)}/>
           </div>
         </div>
-        <Link to={`/explore/video/${_id}`} className="dis-grid link">
-          <div className={style.card_channel} onClick={()=>{
-            videoDispatch({type: "CATEGORY_NAME", payload: categoryName})
-            usePostAxios('history', video, videoDispatch, 'POST_HISTORY')}}>
+        <Link to={`/explore/${_id}`} className="dis-grid link">
+          <div className={style.card_channel} onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: categoryName})}>
             {channelTitle}
           </div>
          </Link>  

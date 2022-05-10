@@ -28,12 +28,27 @@
     box-shadow: 0 0 12px var(--primary);
     margin-bottom: 1rem;
     cursor: pointer;
+    position: relative;
+    z-index: 2;
 }
 
 .category_image {
     width: 10.5rem;
     height: 10rem;
     border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.category_desc {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid var(--primary);
+    border-radius: 0.5rem 0.5rem 0 0;
+    height: 10rem;
+    color: var(--white);
+    z-index: 4;
+    visibility: hidden;
 }
 
 .category_light {
@@ -50,25 +65,20 @@
     font-size: 1.5rem;
 }
 
-.category_desc {
-    padding: 0.5rem 0.8rem;
-    padding-top: 0;
-    width: 10.5rem;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 .category_card:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
     transition: transform .3s;
     border: 2px solid var(--primary-hover);
 }
 
 .category_card:hover .category_desc {
-    text-overflow: unset;
-    white-space: initial;
+    visibility: visible;
+    animation-duration:3s;
+    animation-name:slidein-low;
+}
+
+.category_card:hover .category_image {
+    filter: grayscale(1);
 }
 
 @media only screen and (max-width: 500px) {

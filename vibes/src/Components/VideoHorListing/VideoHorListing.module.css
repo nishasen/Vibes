@@ -1,0 +1,13 @@
+.video_listing {
+    margin: 0.5rem 1rem 0 8rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .video_listing {
+        margin : 1rem 1rem 0rem 1rem;
+    }
+    
+}

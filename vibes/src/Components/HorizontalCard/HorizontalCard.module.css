@@ -1,0 +1,153 @@
+.horizontal_card {
+    width: 90%;
+    height: 8rem;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 12px var(--primary);
+    border-radius: 0.2rem;
+    gap: 0.5rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.card_details {
+    grid-template-columns: auto 12rem repeat(2, auto);
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+
+.card_index {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card_image, .card_time {
+    grid-area: 1/2/2/3;
+}
+
+.card_image {
+    height: 7rem;
+    width: 12rem;
+}
+
+.card_time {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.time {
+    padding: 0.2rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.card_title {
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.card_channel {
+    padding: 0 0.5rem;
+    color: #666666;
+}
+
+.card_more {
+    position: absolute;
+    border-radius: 1rem;
+    padding: 0.2rem 0.1rem;
+    right: -0.8rem;
+    cursor: pointer;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+.card_dropdown {
+    position: absolute;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1.5rem;
+    right: 0;
+    bottom: -1.2rem;
+    border: 1.5px solid var(--primary);
+    color: var(--primary);
+}
+
+.card_icons {
+    padding: 0.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card_light_text {
+    color: var(--black);
+}
+
+.card_dark_text {
+    color: var(--white);
+}
+
+.card_light_dropdown {
+    background-color: var(--black);
+}
+
+.card_dark_dropdown {
+    background-color: var(--white);
+}
+
+.card_more:hover {
+    color: var(--primary-hover);
+    border: 2px solid var(--primary-hover);
+}
+
+.card_icons:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+@media only screen and (max-width: 570px) {
+
+    .horizontal_card {
+        height: 6rem;
+    }
+
+    .card_details {
+        grid-template-columns: auto 8rem repeat(2, auto);
+    }
+
+    .card_image {
+        object-fit: cover;
+        height: 5rem;
+    }    
+
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .horizontal_card:last-child {
+        margin-bottom: 4.7rem;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .card_details {
+        grid-template-columns: auto 6rem repeat(2, auto);
+    }
+
+    .card_image {
+        object-fit: cover;
+        height: 5rem;
+    }    
+
+}
+
+
+

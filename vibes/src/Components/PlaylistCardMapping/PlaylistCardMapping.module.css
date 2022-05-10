@@ -1,0 +1,16 @@
+.playlist_mapping {
+    margin: 0.5rem 1rem 0 8rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .playlist_mapping {
+        gap: 0.5rem;
+        margin: 0.5rem 0.5rem;
+        padding-bottom: 4rem
+    }
+    
+}

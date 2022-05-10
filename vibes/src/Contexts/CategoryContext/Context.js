@@ -1,5 +1,4 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { Reducer } from './Reducer';
 import { useAxios } from "../../APICalls";
 
 const CategoryContext = createContext();

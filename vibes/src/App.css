@@ -1,51 +1,15 @@
-.App {
-  text-align: center;
+@import url('https://nembusui.netlify.app/styles.css');
+@import "react-slideshow-image/dist/styles.css";
+
+:root {
+  --primary: hsl(182, 96%, 32%);
+  --primary-hover: hsl(182, 96%, 40%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+  grid-template-rows: repeat(2, auto);
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #22201c;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.brand-title {
-  font-size: 3rem;
-  color: #d9d9d9;
-}
-
-.brand-title span {
-  color: #ffde59;
-}
-
-.brand-description {
-  font-size: 1.4rem;
-}
-
-.links {
-  display: flex;
-}
-
-.links a {
-  color: #d9d9d9;
-  font-size: 1.2rem;
-  margin: 1rem;
-}

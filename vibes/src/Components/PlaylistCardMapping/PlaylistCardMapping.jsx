@@ -8,7 +8,7 @@ const PlaylistCardMapping = () => {
   const { playlists } = videoState;
   return (
     <div className={`dis-flex ${style.playlist_mapping}`}>
-        {playlistLoading ? <Spinner /> : playlists?.map(playlist => <PlaylistCard playlist={playlist}/>)}
+        {playlistLoading ? <Spinner /> : playlists?.map(playlist => <PlaylistCard playlist={playlist} key={playlist._id}/>)}
     </div>
   )
 }

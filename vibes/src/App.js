@@ -20,8 +20,8 @@ function App() {
         <Route element={<RequireAuth />}>
           <Route path="/liked" element={<Liked />} />
           <Route path="/history" element={<History />} />
-          <Route path="/playlists" element={<Playlists />} />
-          <Route path="/playlists/:id" element={<PlaylistListing />} />
+          <Route path="/playlist" element={<Playlist />} />
+          <Route path="/playlist/:id" element={<PlaylistListing />} />
           <Route path="/watchlater" element={<WatchLater />} />
         </Route>
       </Routes>

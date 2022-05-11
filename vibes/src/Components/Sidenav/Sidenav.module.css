@@ -21,6 +21,14 @@
     color: var(--primary);
 }
 
+.nav_light {
+    background-color: var(--white);
+}
+
+.nav_dark {
+    background-color: var(--black);
+}
+
 @media only screen and (max-width: 500px) {
     .sidenav {
         width: 100%;
@@ -29,14 +37,6 @@
         flex-direction: row;
         justify-content: center;
         gap: 0.5rem;
-    }
-
-    .nav_light {
-        background-color: var(--white);
-    }
-
-    .nav_dark {
-        background-color: var(--black);
     }
 
     .icon_title {

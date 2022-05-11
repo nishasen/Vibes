@@ -25,7 +25,7 @@ const HorizontalCard = (props) => {
   const time = setDuration(duration);
   return (
     <div className={`dis-flex ${style.horizontal_card}`}>
-      <Link to={`/explore/video/${_id}`} className="dis-grid link">
+      <Link to={`/explore/${_id}`} className="dis-grid link">
         <div className={`dis-grid ${style.card_details}`} onClick={()=>{
             videoDispatch({type: "CATEGORY_NAME", payload: categoryName})
             usePostAxios('history', video, videoDispatch, 'POST_HISTORY')}}>

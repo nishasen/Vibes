@@ -14,8 +14,11 @@ const CreatePlaylist = ({onPlaylist}) => {
   const handleSubmit = e => {
     e.preventDefault();
     const playlist = {title: newPlaylist, description: "New playlist"};
-    usePostPlaylistAxios('playlists', playlist, videoDispatch, "POST_PLAYLISTS")
-    setNewPlaylist('')
+    userLogin ?
+      usePostPlaylistAxios('playlists', playlist, videoDispatch, "POST_PLAYLISTS")
+      :
+      Toast("Login to create new playlist", 'warning');
+    setNewPlaylist('');
   };
 
   return (
@@ -28,25 +31,28 @@ const CreatePlaylist = ({onPlaylist}) => {
           <div className={style.modal_title}>Save to...</div>
           <div className={style.modal_playlists}>
             {playlists?.map((playlist, index) =>
-            <div className={`dis-flex ${style.new_playlist}`} key={index}>
-              {playlist.videos.find(item=>item._id===video._id) ? 
-                <MdPlaylistAddCheck size={24} onClick={()=>{
-                  if(userLogin) {
+            <div 
+              className={`dis-flex ${style.new_playlist}`} 
+              key={index} 
+              onClick={()=>{
+                if(userLogin) {
+                  if(playlist.videos.find(item=>item._id===video._id)) {
                     useDeleteAxios(`playlists/${playlist._id}`, video._id, videoDispatch, "DELETE_PLAYLIST_VIDEO")
                     Toast("Video removed from playlist", "success")
                   } else {
-                    Toast("Login to remove video from playlist", "success")
-                  }
-                  }}/> 
-                : 
-                <MdPlaylistAdd size={24} onClick={()=>{
-                  if(userLogin) {
                     usePostAxios(`playlists/${playlist._id}`, video, videoDispatch, "POST_VIDEO_TO_PLAYLIST")
                     Toast("Video added to playlist", "success")
-                  } else {
-                    Toast("Login to add video to playlist", "success")
                   }
-                  }}/>}
+                } else {
+                  Toast("Login to update playlist", "warning")
+                }
+              }}>
+              {
+              playlist.videos.find(item=>item._id===video._id) ? 
+                <MdPlaylistAddCheck size={24} /> 
+                : 
+                <MdPlaylistAdd size={24} />
+              }
               {playlist.title}
             </div>)}
           </div>

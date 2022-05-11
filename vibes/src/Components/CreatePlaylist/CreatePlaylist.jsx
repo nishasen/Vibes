@@ -14,13 +14,11 @@ const CreatePlaylist = ({onPlaylist}) => {
   const handleSubmit = e => {
     e.preventDefault();
     const playlist = {title: newPlaylist, description: "New playlist"};
-    if(userLogin) {
+    userLogin ?
       usePostPlaylistAxios('playlists', playlist, videoDispatch, "POST_PLAYLISTS")
-    } else {
-      Toast("Login to create new playlist", 'warning')
-    }
-    
-    setNewPlaylist('')
+      :
+      Toast("Login to create new playlist", 'warning');
+    setNewPlaylist('');
   };
 
   return (

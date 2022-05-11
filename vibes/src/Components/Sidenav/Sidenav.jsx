@@ -6,7 +6,7 @@ import  { MdDarkMode, MdExplore } from 'react-icons/md';
 import { AiFillLike, AiFillClockCircle } from 'react-icons/ai';
 import { RiPlayListFill } from 'react-icons/ri';
 import { useTheme, useVideo } from '../../Contexts';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { getActiveStyle } from '../../Utils';
  
 const Sidenav = () => {
@@ -27,37 +27,37 @@ const Sidenav = () => {
             <NavLink to="/" className="icon centered" style={getActiveStyle}>
                 <FaHome />
             </NavLink>    
-            <p className={style.icon_title}>Home</p>
+            <Link className="link" to="/"><p className={style.icon_title}>Home</p></Link>
         </div>
         <div className={style.side_icons} onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: "All"})}>
             <NavLink to="/explore" className="icon centered" style={getActiveStyle}>
                 <MdExplore />
             </NavLink>     
-            <p className={style.icon_title}>Explore</p>
+            <Link className="link" to="/explore"><p className={style.icon_title}>Explore</p></Link>
         </div>
         <div className={style.side_icons}>
             <NavLink to="/liked" className="icon centered" style={getActiveStyle}>
                 <AiFillLike />
             </NavLink>    
-            <p className={style.icon_title}>Liked</p>
+            <Link className="link" to="/liked"><p className={style.icon_title}>Liked</p></Link>
         </div>
         <div className={style.side_icons}>
             <NavLink to="/playlist" className="icon centered" style={getActiveStyle}>    
                 <RiPlayListFill />
             </NavLink>    
-            <p className={style.icon_title}>Playlist</p>
+            <Link className="link" to="/playlist"><p className={style.icon_title}>Playlist</p></Link>
         </div>
         <div className={style.side_icons}>
             <NavLink to="/watchlater" className="icon centered" style={getActiveStyle}>    
                 <AiFillClockCircle />
             </NavLink>    
-            <p className={style.icon_title}>Watch later</p>
+            <Link className="link" to="/watchlater"><p className={style.icon_title}>Watch later</p></Link>
         </div>
         <div className={style.side_icons}>
             <NavLink to="/history" className="icon centered" style={getActiveStyle}>    
                 <FaHistory />
             </NavLink>    
-            <p className={style.icon_title}>History</p>
+            <Link className="link" to="/history"><p className={style.icon_title}>History</p></Link>
         </div>
     </div>
   )

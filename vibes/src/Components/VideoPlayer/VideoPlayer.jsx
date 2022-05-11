@@ -14,7 +14,7 @@ import { usePostAxios, useDeleteAxios } from '../../APICalls';
 
 const VideoPlayer = ({singleVideo, id, loading}) => { 
     const { Videos, videoDispatch, videoState, setVideo } = useVideo();  
-    const { liked, watchLater } = videoState;
+    const { liked, watchLater, history } = videoState;
     const { userLogin } = useAuth();
     const categoryVideos = Videos.filter(video => video._id!==id)
     const { _id, title, description, channelTitle, videoId } = singleVideo;  
@@ -32,6 +32,7 @@ const VideoPlayer = ({singleVideo, id, loading}) => {
             <ReactPlayer controls 
                         style={{boxShadow: '0 0 12px var(--primary)'}} 
                         width='100%' 
+                        onStart={()=>!history?.find(item=>item._id===_id) && usePostAxios('history', singleVideo, videoDispatch, "POST_HISTORY")}
                         url={`https://www.youtube.com/watch?v=${videoId}`} />
             <div className={`dis-flex ${style.video_actions}`}>
                 <div className={style.card_icons}>

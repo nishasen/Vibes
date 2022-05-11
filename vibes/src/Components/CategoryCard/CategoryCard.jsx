@@ -19,7 +19,7 @@ const CategoryCard = () => {
         <div className={style.category_card} key={id} onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: categoryName})}>
           <img src={categoryImage} alt="categories" className={style.category_image}/>
           <div className={`${style.category_name} ${textCategory}`}>{categoryName}</div>
-          <div className={`${style.category_desc} ${textCategory}`}>{description}</div>
+          <div className={`${style.category_desc}`}>{description}</div>
         </div>
       </Link>)}
       </div>

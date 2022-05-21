@@ -71,8 +71,12 @@ const VideoCard = ({video}) => {
             </div>
           <div className={style.card_icons}>
             <MdPlaylistAdd size={24} onClick={()=>{
+              if(userLogin){
                 setVideo(video)
-                openPlaylistDialog(true)}}/>   
+                openPlaylistDialog(true)
+              } else {
+                Toast("Login to add video to playlist", "warning")
+              }}}/>   
           </div>
           <div className={style.card_icons}>
             {watchLater?.find(item=>item._id===video._id) ? 

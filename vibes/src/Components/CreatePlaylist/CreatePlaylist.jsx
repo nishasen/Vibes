@@ -14,10 +14,8 @@ const CreatePlaylist = ({onPlaylist}) => {
   const handleSubmit = e => {
     e.preventDefault();
     const playlist = {title: newPlaylist, description: "New playlist"};
-    userLogin ?
-      usePostPlaylistAxios('playlists', playlist, videoDispatch, "POST_PLAYLISTS")
-      :
-      Toast("Login to create new playlist", 'warning');
+    usePostPlaylistAxios('playlists', playlist, videoDispatch, "POST_PLAYLISTS");
+    Toast("Created new playlist", "success");
     setNewPlaylist('');
   };
 
@@ -35,18 +33,13 @@ const CreatePlaylist = ({onPlaylist}) => {
               className={`dis-flex ${style.new_playlist}`} 
               key={index} 
               onClick={()=>{
-                if(userLogin) {
                   if(playlist.videos.find(item=>item._id===video._id)) {
                     useDeleteAxios(`playlists/${playlist._id}`, video._id, videoDispatch, "DELETE_PLAYLIST_VIDEO")
                     Toast("Video removed from playlist", "success")
                   } else {
                     usePostAxios(`playlists/${playlist._id}`, video, videoDispatch, "POST_VIDEO_TO_PLAYLIST")
                     Toast("Video added to playlist", "success")
-                  }
-                } else {
-                  Toast("Login to update playlist", "warning")
-                }
-              }}>
+                  }}}>
               {
               playlist.videos.find(item=>item._id===video._id) ? 
                 <MdPlaylistAddCheck size={24} /> 

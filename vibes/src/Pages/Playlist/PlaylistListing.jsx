@@ -9,7 +9,6 @@ import { useVideo } from '../../Contexts';
 const PlaylistListing = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const videos = 0;
   const { videoDispatch, videoState } = useVideo();
   const { playlists } = videoState;
   const [playlistVideo, setPlaylistVideo] = useState({});

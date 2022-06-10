@@ -2,7 +2,7 @@
 Vibes is a video library, where you can vibe out with lofi musics. You can set music according to your mood and can also include different nature sounds.
 
 ## Live link
-[Vibes](https://myvibes.vercel.app/)
+[Vibes](https://myvibes-xi.vercel.app/)
 
 ## Technologies used
 - ReactJS

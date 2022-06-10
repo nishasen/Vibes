@@ -9,7 +9,6 @@ const Playlist = () => {
   const { playlists } = videoState;
   return (
     <div>
-        <MainComponent />
         <div className="headers dis-flex">
           <HeaderText text={`Playlist - ${playlists?.length ? playlists?.length : 0}`} />
           <div className="playlist-button" onClick={()=>openPlaylistDialog(true)}><BsPlusLg size={25} /></div>

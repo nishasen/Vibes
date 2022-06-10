@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useReducer, useState } from "react";
 import { useGetAxios, useAxios, useGetAllPlaylistAxios } from "../../APICalls";
 import { Reducer } from "./Reducer";
-import { Compose, filterByCategory } from './Utils';
+import { Compose, filterByCategory, filterBySearch } from './Utils';
 
 const VideoContext = createContext();
 const useVideo = () => useContext(VideoContext);
@@ -16,6 +16,7 @@ const VideoProvider = ({children}) => {
         history: [],
         playlists: [],
         categoryFilter: "All",
+        debounceText: "",
     })
     const { response: videoResponse, loading: videoLoading } = useAxios('/api/videos');
     useEffect(()=>{
@@ -43,7 +44,7 @@ const VideoProvider = ({children}) => {
         videoDispatch({type: 'SET_PLAYLIST', payload: playlistResponse.playlists || []})
     }, [playlistResponse])
    
-    const filteredVideos = Compose(videoState, filterByCategory)(videos)
+    const filteredVideos = Compose(videoState, filterByCategory, filterBySearch)(videos)
 
     return (
         <VideoContext.Provider value={{Videos: filteredVideos, videoLoading,

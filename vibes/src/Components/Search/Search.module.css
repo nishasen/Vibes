@@ -1,0 +1,37 @@
+.search_outer_modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: var(--bg-modal);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.search_modal {
+    background-color: var(--black);
+    width: 90%;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary);
+    gap: 0.5rem;
+}
+
+.search_input {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1.5px solid var(--primary);
+    padding: 0 0.5rem;
+}
+
+.search_close {
+    color: var(--primary);
+}
+

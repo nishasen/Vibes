@@ -18,9 +18,8 @@ const PlaylistListing = () => {
   }, [response])
   return (
     <div>
-        <MainComponent />
         <div className="headers dis-flex ">
-          <HeaderText text={`${playlistVideo?.title} - ${playlistVideo?.videos?.length ? playlistVideo?.videos?.length : 0}`} />
+          <HeaderText text={playlistVideo?.title ? playlistVideo?.title + " - " + (playlistVideo?.videos?.length ? playlistVideo?.videos?.length : 0) : "Playlist"} />
           <div className="playlist-delete"><BsFillTrashFill size={25} onClick={()=>{
             useDeleteAxios(`playlists`, id, videoDispatch, "DELETE_PLAYLISTS", navigate)
             Toast("Playlist removed successfully", "success")}}/></div>

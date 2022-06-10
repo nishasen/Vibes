@@ -8,7 +8,6 @@ const Liked = () => {
   const { liked } = videoState;
   return (
     <div>
-        <MainComponent />
         <div className="headers dis-flex"><HeaderText text={`Liked - ${liked?.length ? liked?.length : 0}`} /></div>
         <VideoHorListing showLiked={true}/>
         <CreatePlaylist onPlaylist={false}/>

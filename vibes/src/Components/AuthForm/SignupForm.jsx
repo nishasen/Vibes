@@ -31,7 +31,7 @@ const SignupForm = () => {
         errorMessage: "Enter a valid mail",
         }, password: {
         isError: false, 
-        errorMessage: "Password must contain minimum eight characters, at least one uppercase letter, one lowercase letter and one number",
+        errorMessage: "Password must contain minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character",
         }, confirmPassword: {
         isError: false,
         errorMessage: "Password does not match",

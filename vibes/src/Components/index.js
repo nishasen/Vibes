@@ -23,3 +23,4 @@ export { VideoPlayer } from './VideoPlayer/VideoPlayer';
 export { CreatePlaylist } from './CreatePlaylist/CreatePlaylist';
 export { Toast } from './Toast/Toast';
 export { Spinner } from './Spinner/Spinner';
+export { Search } from './Search/Search';

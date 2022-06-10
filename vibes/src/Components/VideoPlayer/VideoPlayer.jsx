@@ -85,9 +85,6 @@ const VideoPlayer = ({singleVideo, id, loading}) => {
                             }
                             }}/>}
                 </div>
-                <div className={style.card_icons}>
-                    <FaShareSquare size={25}/>
-                </div>
             </div>
             <div className={`dis-flex ${style.audio_container}`}>
                 <span className={`${videoText} ${style.desc_title}`}>Set your vibe : </span>
@@ -110,7 +107,6 @@ const VideoPlayer = ({singleVideo, id, loading}) => {
             <ReactAudioPlayer
                 src={audio}
                 autoPlay
-                // controls
                 volume={0.7}
                 loop={true}
                 />

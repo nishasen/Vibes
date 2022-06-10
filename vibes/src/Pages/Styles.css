@@ -4,6 +4,18 @@
     align-items: center;
 }
 
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.not-found {
+    width: 80%;
+    height: 20rem;
+}
+
 .playlist-button, .playlist-delete {
     padding: 0.5rem;
     color: var(--white);

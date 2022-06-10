@@ -8,8 +8,9 @@ const History = () => {
   const { history } = videoState;
   return (
     <div>
-        <MainComponent />
-        <div className="headers dis-flex"><HeaderText text={`History - ${history?.length ? history?.length : 0}`} /></div>
+        <div className="headers dis-flex">
+          <HeaderText text={`History - ${history?.length ? history?.length : 0}`} />
+        </div>
         <VideoHorListing showHistory={true}/>
         <CreatePlaylist onPlaylist={false}/>
     </div>

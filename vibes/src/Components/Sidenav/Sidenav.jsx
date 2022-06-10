@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from '..';
 import style from './Sidenav.module.css';
 import  { FaSun, FaHome, FaHistory } from 'react-icons/fa';
 import  { MdDarkMode, MdExplore } from 'react-icons/md';
@@ -17,9 +16,9 @@ const Sidenav = () => {
     <div className={`${style.sidenav} ${mode==="light"? style.nav_light : style.nav_dark}`}>
         <div className={style.side_icons}>
             {mode==="light" ?
-                <Icon><MdDarkMode onClick={()=>themeDispatch({type: "dark"})}/></Icon>
+                <div className="icon centered" onClick={()=>themeDispatch({type: "dark"})}><MdDarkMode/></div>
                 :
-                <Icon><FaSun onClick={()=>themeDispatch({type: "light"})}/></Icon>
+                <div className="icon centered" onClick={()=>themeDispatch({type: "light"})}><FaSun/></div>
             }
             <p className={style.icon_title}>Mode</p>
         </div>

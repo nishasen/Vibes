@@ -13,7 +13,6 @@ const SingleVideo = () => {
   
   return (
     <div>
-        <MainComponent />
         <VideoPlayer singleVideo={singleVideo} loading={loading} id={id}/>
         <CreatePlaylist onPlaylist={false}/>
     </div>

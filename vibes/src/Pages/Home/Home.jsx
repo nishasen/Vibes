@@ -4,9 +4,9 @@ import { MainComponent, Hero, CategoryCard } from '../../Components';
 const Home = () => {
   return (
     <div>
-        <MainComponent />
-        <Hero />
-        <CategoryCard />
+        {/* <MainComponent /> */}
+          <Hero />
+          <CategoryCard />
     </div>
   )
 }

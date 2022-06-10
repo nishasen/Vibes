@@ -18,7 +18,7 @@ const defaultForm = {
 const LoginForm = () => {
     let navigate = useNavigate();
     const location = useLocation();
-    const { userLogin, setUserToken } = useAuth();
+    const { setUserToken, setResponse } = useAuth();
     const [form, setForm] = useState(defaultForm);
     const [submitMode, setSubmitMode] = useState(false);
     const [showPassword, setShowPassword] = useState(false);
@@ -28,7 +28,7 @@ const LoginForm = () => {
         errorMessage: "Enter a valid mail",
         }, password: {
         isError: false, 
-        errorMessage: "Password must contain minimum eight characters, at least one uppercase letter, one lowercase letter and one number",
+        errorMessage: "Password must contain minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character",
         }
     });
     const { themeState } = useTheme();
@@ -49,7 +49,7 @@ const LoginForm = () => {
         setForm({...form, [name]: value})
       }
 
-    const setGuestLogin = () => setForm({email: "guest@gmail.com", password: "Guest123"})
+    const setGuestLogin = () => setForm({email: "nishasen@gmail.com", password: "Nisha@1234"})
 
     const SubmitHandler = async(event) => {
       event.preventDefault();
@@ -61,7 +61,8 @@ const LoginForm = () => {
         if(res.status===200){
           setForm(defaultForm);
           localStorage.setItem('userToken', res.data.encodedToken)
-          setUserToken(res.data.encodedToken)
+          setResponse(res.data.foundUser)
+          setUserToken(localStorage.getItem('userToken'))
           Toast("Successfully logged in", "success")
           navigate(location.state?.from?.pathname || "/");
         } 

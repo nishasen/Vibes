@@ -4,7 +4,6 @@ import { MainComponent, SignupForm } from '../../Components';
 const Signup = () => {
   return (
     <div>
-        <MainComponent />
         <SignupForm />
     </div>
   )

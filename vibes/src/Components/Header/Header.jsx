@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import VibesDark from '../../Assets/VibesDark.png';
-import VibesLight from '../../Assets/VibesLight.png';
+import Vibes from '../../Assets/Vibes.png';
 import { useTheme } from '../../Contexts';
 import style from './Header.module.css';
 
@@ -10,10 +9,7 @@ const Header = () => {
     const { mode } = themeState;
   return (
     <>
-       {mode==="light" ? 
-            <Link to="/"><img src={VibesLight} alt="header" className={style.header}/></Link>
-            :
-            <Link to="/"><img src={VibesDark} alt="header" className={style.header}/></Link>}
+      <Link to="/"><img src={Vibes} alt="header" className={style.header}/></Link>
     </>
   )
 }

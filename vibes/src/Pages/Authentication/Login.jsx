@@ -4,7 +4,6 @@ import { LoginForm, MainComponent } from '../../Components';
 const Login = () => {
   return (
     <div>
-        <MainComponent />
         <LoginForm />
     </div>
   )

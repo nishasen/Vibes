@@ -13,3 +13,12 @@
     color: var(--white);
     background-color: var(--primary);
 }
+
+@media only screen and (max-width: 400px) {
+    
+    .icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+}

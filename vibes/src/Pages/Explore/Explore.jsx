@@ -4,7 +4,6 @@ import { CategoryChips, MainComponent, ExploreMapping, CreatePlaylist } from '..
 const Explore = () => {
   return (
     <div>
-        <MainComponent />
         <CategoryChips />
         <ExploreMapping />
         <CreatePlaylist onPlaylist={false}/>

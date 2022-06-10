@@ -15,8 +15,8 @@ const CategoryCard = () => {
       <HeaderText text="Browse Categories"/>
       <div className={style.category_container}>
       {categories.map(({id, categoryName, categoryImage, description}) => 
-      <Link to='/explore' className="btn-link">
-        <div className={style.category_card} key={id} onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: categoryName})}>
+      <Link to='/explore' className="btn-link" key={id}>
+        <div className={style.category_card} onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: categoryName})}>
           <img src={categoryImage} alt="categories" className={style.category_image}/>
           <div className={`${style.category_name} ${textCategory}`}>{categoryName}</div>
           <div className={`${style.category_desc}`}>{description}</div>

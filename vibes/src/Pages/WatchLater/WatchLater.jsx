@@ -8,7 +8,6 @@ const WatchLater = () => {
   const { watchLater } = videoState;
   return (
     <div>
-        <MainComponent />
         <div className="headers dis-flex"><HeaderText text={`Watch later - ${watchLater?.length ? watchLater?.length : 0}`} /></div>
         <VideoHorListing showWatchLater={true}/>
         <CreatePlaylist onPlaylist={false}/>

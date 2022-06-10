@@ -21,6 +21,8 @@ export const Reducer = (videoState, videoAction) => {
         case 'DELETE_PLAYLIST_VIDEO': 
             return {...videoState, playlists: videoState.playlists?.map(item => item._id===videoAction.payload.playlist._id ? 
             videoAction.payload.playlist : item)};
+        case 'SEARCH_FILTER':
+                return {...videoState, debounceText: videoAction.payload}    
             
         default: return videoState;
     }

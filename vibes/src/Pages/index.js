@@ -8,3 +8,4 @@ export { Liked } from './Liked/Liked';
 export { Playlist } from './Playlist/Playlist';
 export { PlaylistListing } from './Playlist/PlaylistListing';
 export { WatchLater } from './WatchLater/WatchLater';
+export { Error } from './Error/Error';

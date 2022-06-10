@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Button, Toast } from '..';
-import { useAuth, useVideo } from '../../Contexts';
+import { useVideo } from '../../Contexts';
 import style from './CreatePlaylist.module.css';
 import { MdPlaylistAddCheck, MdPlaylistAdd } from 'react-icons/md';
 import { useDeleteAxios, usePostAxios, usePostPlaylistAxios } from '../../APICalls';
@@ -8,15 +8,20 @@ import { useDeleteAxios, usePostAxios, usePostPlaylistAxios } from '../../APICal
 const CreatePlaylist = ({onPlaylist}) => {
   const { playlistDialog, openPlaylistDialog, videoDispatch, videoState, video } = useVideo();
   const { playlists } = videoState;
-  const { userLogin } = useAuth();
   const [newPlaylist, setNewPlaylist] = useState('');
-
-  const handleSubmit = e => {
-    e.preventDefault();
+  const postPlaylist = () => {
     const playlist = {title: newPlaylist, description: "New playlist"};
     usePostPlaylistAxios('playlists', playlist, videoDispatch, "POST_PLAYLISTS");
     Toast("Created new playlist", "success");
     setNewPlaylist('');
+  }
+  const noPostPlaylist = () => {
+    Toast("Playlist already present", "warning");
+    setNewPlaylist('');
+  }
+  const handleSubmit = e => {
+    e.preventDefault();
+    playlists?.find(item => item.title===newPlaylist) ? noPostPlaylist() : postPlaylist();
   };
 
   return (

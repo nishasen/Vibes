@@ -23,8 +23,8 @@ const PlaylistCardMapping = () => {
             :
             <div className={style.empty_container}>
               <img src={Playlist} alt="No playlist" className={style.empty_image}/> 
-              <h4 className={empty_text}>Explore and add videos to playlist</h4>
-              <Link to="/explore">Let's vibe</Link>
+              <h4 className={empty_text}>No playlist created yet, explore and create playlist</h4>
+              <Link to="/explore" onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: "All"})}>Let's vibe</Link>
             </div>
           }
           </>

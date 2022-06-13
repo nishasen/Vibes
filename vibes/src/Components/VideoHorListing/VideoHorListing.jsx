@@ -9,7 +9,7 @@ import History from '../../Assets/History.svg';
 import { Link } from 'react-router-dom';
 
 const VideoHorListing = ({showLiked, showPlaylist, showWatchLater, showHistory, playlistVideo, playlistLoading}) => {
-  const { videoState, likedLoading, watchLaterLoading, historyLoading } = useVideo();
+  const { videoState, likedLoading, watchLaterLoading, historyLoading, videoDispatch } = useVideo();
   const { liked, watchLater, history } = videoState;
   const { themeState } = useTheme();
   const { mode } = themeState;
@@ -28,7 +28,7 @@ const VideoHorListing = ({showLiked, showPlaylist, showWatchLater, showHistory, 
             <div className={style.empty_container}>
               <img src={Likes} alt="No likes" className={style.empty_image}/> 
               <h4 className={empty_text}>Explore and add videos to likes</h4>
-              <Link to="/explore">Let's vibe</Link>
+              <Link to="/explore" onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: "All"})}>Let's vibe</Link>
             </div>
           }
           </>}
@@ -46,7 +46,7 @@ const VideoHorListing = ({showLiked, showPlaylist, showWatchLater, showHistory, 
             <div className={style.empty_container}>
               <img src={WatchLater} alt="No watch later" className={style.empty_image}/> 
               <h4 className={empty_text}>Explore and add videos to watch later</h4>
-              <Link to="/explore">Let's vibe</Link>
+              <Link to="/explore" onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: "All"})}>Let's vibe</Link>
             </div>
           }
           </>}
@@ -64,7 +64,7 @@ const VideoHorListing = ({showLiked, showPlaylist, showWatchLater, showHistory, 
             <div className={style.empty_container}>
               <img src={History} alt="No history" className={style.empty_image}/> 
               <h4 className={empty_text}>Watch videos to add videos in history</h4>
-              <Link to="/explore">Let's vibe</Link>
+              <Link to="/explore" onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: "All"})}>Let's vibe</Link>
             </div>
           }
           </>}
@@ -82,7 +82,7 @@ const VideoHorListing = ({showLiked, showPlaylist, showWatchLater, showHistory, 
             <div  className={style.empty_container}>
               <img src={PlaylistListing} alt="playlist" className={style.empty_image}/> 
               <h4 className={empty_text}>Explore and add videos to {playlistVideo?.title}</h4>
-              <Link to="/explore">Let's vibe</Link>
+              <Link to="/explore" onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: "All"})}>Let's vibe</Link>
             </div>
           }
           </>}

@@ -11,7 +11,7 @@ const CategoryChips = () => {
 <div className={`dis-flex ${style.categories}`}>
         <Button text="All" 
                 contained={categoryFilter==="All"} 
-                onClick={()=>{videoDispatch({type: "CATEGORY_NAME", payload: "All"})}}/>
+                onClick={()=>videoDispatch({type: "CATEGORY_NAME", payload: "All"})}/>
         {categories.map(({_id, categoryName}) => <Button text={categoryName} 
                                                         contained={categoryName===categoryFilter} 
                                                         onClick={()=>{videoDispatch({type: "CATEGORY_NAME", payload: categoryName})}} 
